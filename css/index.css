@@ -1,0 +1,358 @@
+/*html { 
+	background: url(ship.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+
+body{
+	margin: 0 auto;
+	background-color: #CCCCCC;
+}
+
+.container{
+	width: 1170px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+/****************** css for header **********************/
+header{
+	width: 100%;
+	height: 85px;
+	float: left;
+	background-color: #E1DFDF;
+}
+
+header .banner{
+	width: 31%;
+	float: left;
+	height: 100%;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+header .banner img{
+	width: 90%;
+	height: 86%;
+	position: absolute;
+	top: 7%;
+	right: 5%;
+	bottom: 7%;
+	left: 5%;
+}
+
+header .contact{
+	width: 27%;
+	height: 99.5%;
+	float: left;
+	font-size: 85%;
+	font-weight: bold;
+	font-family: Helvetica,Arial;
+	border-right: 2px solid #514F48;
+	overflow: hidden;
+	padding-left: 3%;
+	padding-top: 1%;
+	line-height: 25px;
+	font-family: helvetica, arial;
+}
+
+/******************end of css for header***************************/
+
+
+
+
+/***************** css for navigation part *********************/
+
+nav {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #A40A25;
+	border-bottom: 4px solid #E01739;
+}
+
+nav a{
+	text-decoration: none;
+	float: left;
+	padding-top: 13px;
+	height: 30px;
+	padding-left: 28px;
+	padding-right: 28px;
+	color: white;
+	border-left: 1px solid #E01739;	
+	background-color: #A40A25;
+	font-size: 75%;
+	font-family: helvetica, Arial;
+	font-weight: bold;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+nav #last{
+	border-right: 0px solid #E01739;
+}
+
+nav a:hover{
+	color: #A40A25;
+	background-color: white;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+
+/******************* end of css for navigation ***************/
+
+
+
+
+
+/******************** css for slideshow ****************/
+.slideshow{
+	width: 100%;
+	float: left;
+}
+
+.window{
+	/*width: 1288px;*/
+	width: 100%;
+	height: 560px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.window .slide-holder{
+	position: absolute;
+	width: 300%;
+	height: 100%;
+}
+
+.window .slide-holder .slide{
+	width: 33.33333333333333333333333333333333333333333333333333%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.window .slide-holder .slide img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.window .slide-holder .slide .slidetext{
+	position: absolute;
+	width: 60%;
+	height: 45%;
+	top: 100%;
+	background-color: rgba(118,15,34,0.5);
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	font-family: sans-serif;
+	font-size: 120%;
+	padding-left: 33%;
+	padding-right: 7%;
+}
+
+.window .slide-holder .slide .slidetext h3{
+	font-size: 120%;
+	margin-top: 2%;
+	margin-bottom: -1%;
+}
+
+.window .slide-holder .slide .slidetext a{
+	padding: 1.2%; 
+	background-color: #A40A25;
+	text-decoration: none;
+	border-radius: 5%;
+	color: white;
+	font-weight: bold;
+	line-height: 200%;
+	font-size: 110%;
+	line-height: 200%;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+.window .slide-holder .slide .slidetext a:hover{
+	background-color: white;
+	color: #A40A25;
+	box-shadow: 3px 3px 1px #A40A25;
+	transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+}
+
+.window .mission{
+	position: absolute;
+	width: 23%;
+	height: 63%;
+	top: 25%;
+	bottom: 1%;
+	left: 5%;
+	right: 5%;
+	box-shadow: 3px 3px rgba(164,10,37,0.2);
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+}
+
+.window .mission .headline{
+	width: 100%;
+	height: 16%;
+	float: left;
+	background-color: rgba(150,34,65,0.7);
+	overflow: hidden;
+	position: relative;
+}
+.window .mission .headline .text {
+	color: white;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	font-family: Helvetica, Arial;
+	font-size: 135%;
+	top: 25%;
+	bottom: 25%;
+}
+
+.window .mission .description{
+	width: 100%;
+	height: 84%;
+	float: left;
+	background-color: rgba(223,215,214,0.4);
+	position: relative;
+}
+
+.window .mission .description .text{
+	position: absolute;
+	width: 85%;
+	height: 95%;
+	top: 3.5%;
+	left: 6%;
+	bottom: 5%;
+	right: 6%;
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 155%;
+	overflow: hidden;
+}
+/****************** end of css for slideshow **********/
+
+
+
+
+/******************* css for dropdown menu ************************/
+.dropdown-menu-container{
+	position: absolute;
+	width: 16%;
+	height: 45px;
+	margin-top: 0%;
+	left: 82%;
+	background-color: white;
+	color: #A40A25;
+	overflow: hidden;
+	border-bottom: 1px solid #A40A25;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+}
+
+.dropdown-menu-container a{
+	float: left;
+	width: 100%;
+	height: 45px;
+	position: relative;
+	text-align: center;
+	color: #A40A25;
+	font-weight: bold;
+	font-family: helvetica, arial;
+	font-size: 75%;
+	border-bottom: 1px solid #A40A25;
+}
+
+.dropdown-menu-container a .text{
+	position: absolute;
+	top: 30%;
+	bottom: 30%;
+	width: 100%;
+}
+
+.dropdown-menu-container:hover{
+	height: 460px;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+}
+
+.dropdown-menu-container a:hover{
+	background-color: #A40A25;
+	color: white;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+/**************** end of css for dropdown menu ***********/
+
+
+
+
+
+/*************** css for footer **********************/
+footer{
+	width: 100%;
+	height: 75px;
+	background-color: #8A081F;
+	float: left;
+	color: white;
+	font-family: Helvetica,Arial;
+	font-size: 85%;
+}
+
+footer .left-footer{
+	float: left;
+	width: 58%;
+	height: 100%;
+}
+
+footer .left-footer .text{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+footer .right-footer{
+	float: right;
+	width: 38%;
+	height: 100%;
+}
+
+footer .right-footer .text{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+/*************** end of css for footer menu **********/

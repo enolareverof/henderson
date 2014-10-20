@@ -1,0 +1,86 @@
+.main-body{
+	width: 100%;
+	float: left;
+	background-color: white;
+	font-family: helvetica, arial;
+	padding-top: 4%;
+	padding-bottom: 10%;
+}
+
+.main-body .context{
+	width: 65%;
+	float: left;
+	padding-left: 7%;
+	padding-right: 5%;
+}
+
+.main-body .context h2{
+	color: #A40A25;
+	font-weight: bold;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px grey;
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+}
+
+.main-body .context h2:hover{
+	color: #E01739;
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+}
+
+.main-body .context h2,.main-body .context ul,.main-body .context p{
+	margin-top: 0;
+	margin-bottom: 4%;
+}
+
+
+.main-body .context ul,.main-body .context p{
+	font-size: 90%;
+	line-height: 20px;
+}
+
+.main-body .side-bar{
+	width: 16%;
+	float: left;
+	padding-right: 7%;
+	text-align: center;
+}
+
+
+.main-body .side-bar .image{
+	width: 100%;
+	height: 250px;
+	float: left;
+	margin-bottom: 25px;
+	box-shadow: 4px 4px 2px grey;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+.main-body .side-bar .image:hover{
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+.main-body .side-bar .image img{
+	width: 100%;
+	height: 100%;
+}
