@@ -1,0 +1,43 @@
+/****************** css for header **********************/
+header{
+	width: 100%;
+	height: 78px;
+	float: left;
+	background-color: white;
+}
+
+header .banner{
+	width: 31%;
+	float: left;
+	height: 100%;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+header .banner img{
+	width: 90%;
+	height: 86%;
+	position: absolute;
+	top: 7%;
+	right: 5%;
+	bottom: 7%;
+	left: 5%;
+}
+
+header .contact{
+	height: 99%;
+	float: right;
+	font-size: 80%;
+	font-weight: bold;
+	font-family: Helvetica,Arial;
+	overflow: hidden;
+	margin-right: 20%;
+	padding-top: 1%;
+	line-height: 16px;
+	font-family: helvetica, arial;
+	color: #868686;
+	background-color: apink;
+	text-align: right;
+}
+
+/******************end of css for header***************************/

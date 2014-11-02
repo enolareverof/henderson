@@ -1,0 +1,139 @@
+/******************** css for slideshow ****************/
+.slideshow{
+	width: 100%;
+	float: left;
+}
+
+.window{
+	/*width: 1288px;*/
+	width: 100%;
+	height: 560px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.window .slide-holder{
+	position: absolute;
+	width: 300%;
+	height: 100%;
+}
+
+.window .slide-holder .slide{
+	width: 33.33333333333333333333333333333333333333333333333333%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.window .slide-holder .slide img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.window .slide-holder .slide .slidetext{
+	position: absolute;
+	width: 60%;
+	height: 45%;
+	top: 100%;
+	background-color: rgba(118,15,34,0.5);
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	font-family: sans-serif;
+	font-size: 120%;
+	padding-left: 33%;
+	padding-right: 7%;
+}
+
+.window .slide-holder .slide .slidetext h3{
+	font-size: 120%;
+	margin-top: 2%;
+	margin-bottom: -1%;
+}
+
+.window .slide-holder .slide .slidetext a{
+	padding: 1.2%; 
+	background-color: #A40A25;
+	text-decoration: none;
+	border-radius: 5%;
+	color: white;
+	font-weight: bold;
+	line-height: 200%;
+	font-size: 110%;
+	line-height: 200%;
+	transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+.window .slide-holder .slide .slidetext a:hover{
+	background-color: white;
+	color: #A40A25;
+	box-shadow: 3px 3px 1px #A40A25;
+	transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+}
+
+.window .mission{
+	position: absolute;
+	width: 23%;
+	height: 63%;
+	top: 25%;
+	bottom: 1%;
+	left: 5%;
+	right: 5%;
+	box-shadow: 3px 3px rgba(164,10,37,0.2);
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+}
+
+.window .mission .headline{
+	width: 100%;
+	height: 16%;
+	float: left;
+	background-color: rgba(150,34,65,0.7);
+	overflow: hidden;
+	position: relative;
+}
+.window .mission .headline .text {
+	color: white;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	font-family: Helvetica, Arial;
+	font-size: 135%;
+	top: 25%;
+	bottom: 25%;
+}
+
+.window .mission .description{
+	width: 100%;
+	height: 84%;
+	float: left;
+	background-color: rgba(223,215,214,0.4);
+	position: relative;
+}
+
+.window .mission .description .text{
+	position: absolute;
+	width: 85%;
+	height: 95%;
+	top: 3.5%;
+	left: 6%;
+	bottom: 5%;
+	right: 6%;
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 155%;
+	overflow: hidden;
+}
+/****************** end of css for slideshow **********/

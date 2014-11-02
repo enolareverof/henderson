@@ -88,7 +88,7 @@ function run(){
 							if ( $(window).width() > 1000) {
 								$('.window .slide-holder .slide .slidetext').animate({'padding-left': '7%'});
 								$('.window .slide-holder .slide .slidetext').animate({'padding-right':'33%'});
-								$('.window .mission').animate({'margin-left':'65%'});
+								$('.window .mission').animate({'margin-left':'785'});
 								mCondition=!mCondition;
 							}
 						}
@@ -96,7 +96,7 @@ function run(){
 							if ( $(window).width() > 1000) {
 								$('.window .slide-holder .slide .slidetext').animate({'padding-left':'33%'});
 								$('.window .slide-holder .slide .slidetext').animate({'padding-right':'7%'});
-								$('.window .mission').animate({'margin-left':'0%'});
+								$('.window .mission').animate({'margin-left':'0'});
 								mCondition=!mCondition;
 							}
 						}

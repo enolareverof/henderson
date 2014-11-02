@@ -2,53 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Client Page</title>
+	<title>Client Page</title>	
 
-	<link rel="stylesheet" href="../css/index.css">
-	<link rel="stylesheet" href="../css/photo-thumbnail.css">
-	<link rel="stylesheet" href="../font/css/font-awesome.min.css">
+    <!-- importing css -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/photo-thumbnail.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/dropdown.css">
+    <link rel="stylesheet" href="../font/css/font-awesome.min.css">
 
 </head>
 <body>
-
+	
+	<!-- start of container -->
 	<div class="container">
-		<!-- start of dropdown menu -->
-		<div class="dropdown-menu-container">
-			<a href="#">
-				<div class="text">
-					<i class="fa fa-caret-square-o-down">&nbsp;&nbsp;&nbsp;OUR OFFICE</i>
-				</div>
-			</a>
-			<a href="#">
-				<div class="text">DHAKA</div>
-			</a>
-			<a href="#">
-				<div class="text">ARAB EMIRATES</div>
-			</a>
-			<a href="#">
-				<div class="text">CHINA</div>
-			</a>
-			<a href="#">
-				<div class="text">JAPAN</div>
-			</a>
-			<a href="#">
-				<div class="text">INDIA</div>
-			</a>
-			<a href="#">
-				<div class="text">SWEDEN</div>
-			</a>
-			<a href="#">
-				<div class="text">U.S.A</div>
-			</a>
-			<a href="#">
-				<div class="text">U.K</div>
-			</a>
-			<a href="#">
-				<div class="text">AUSTRALIA</div>
-			</a>
-		</div>
-		<!--end of dropdown menu -->
-
 
 
 		<!-- header-start-->
@@ -57,7 +26,7 @@
 				<img src="../logos/logo.png" alt="">
 			</div>
 			<div class="contact">
-				Call us at +8801938840600(24 hour)<br>
+				Call us at +8801938840600 ( 24 hours )<br>
 				info@hendersonbd.org
 			</div>
 		</header>
@@ -222,9 +191,77 @@
 			</div>
 		</footer>
 		<!-- end of footer -->
+		
+
+		<!-- start of dropdown-menu-container -->
+        <div class="dropdown-menu-container">
+            
+            <div class="top">
+                <i class="fa fa-hand-o-right"></i>&nbsp;
+                Feel Free To Contact With Us ...
+            </div>
+
+            <div class="left-menu">
+                <a href="#">
+                    <div class="text">DHAKA</div>
+                </a>
+                <a href="#">
+                    <div class="text">ARAB EMIRATES</div>
+                </a>
+                <a href="#">
+                    <div class="text">CHINA</div>
+                </a>    
+            </div>
+
+            
+            <div class="middle-menu">
+                <a href="#">
+                    <div class="text">JAPAN</div>
+                </a>
+                <a href="#">
+                    <div class="text">INDIA</div>
+                </a>
+                <a href="#">
+                    <div class="text">SWEDEN</div>
+                </a>    
+            </div>
+            
+
+            <div class="right-menu">
+                <a href="#">
+                    <div class="text">U.S.A</div>
+                </a>
+                <a href="#">
+                    <div class="text">U.K</div>
+                </a>
+                <a href="#">
+                    <div class="text">AUSTRALIA</div>
+                </a>    
+            </div>
+            
+        </div>
+        <!-- end of dropdown-menu-container -->
+
+        <!-- start of dropdown-menu -->
+        <div class="dropdown-menu">
+            <a href="#">
+                <div class="text">
+                    <i class="fa fa-caret-square-o-down">&nbsp;&nbsp;&nbsp;OUR OFFICE</i>
+                </div>
+            </a>
+        
+        </div>
+        <!--end of dropdown-menu -->
 
 
 	</div>
+	<!-- end of container -->
 	
+	<!-- importing javascript -->
+	<script type="text/javascript" src="../javascript/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="../javascript/prefixfree.min.js"></script>
+	<script type="text/javascript" src="../javascript/dropdown.js"></script>
+
+
 </body>
 </html>

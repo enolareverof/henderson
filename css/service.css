@@ -3,22 +3,108 @@
 	float: left;
 	background-color: white;
 	font-family: helvetica, arial;
-	padding-top: 4%;
-	padding-bottom: 10%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.main-body .context{
-	width: 65%;
+
+/* start of css for sidebar */
+.main-body .side-bar{
+	width: 25%;
+	margin-left: 3%;
 	float: left;
-	padding-left: 7%;
-	padding-right: 5%;
+	box-shadow: 2px 2px 20px grey;
 }
 
-.main-body .context h2{
+.main-body .side-bar .sidebar-header{
+	height: 40px;
+	width: 100%;
+	float: left;
+	background-color: #A40A25;
+	border-bottom: 4px solid #E01739;
+	text-align: center;
+	color: white;
+	font-family: Helvetica, Arial;
+	font-size: 125%;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.main-body .side-bar .sidebar-body{
+	width: 52%;
+	padding-left: 24%;
+	padding-right: 24%;
+	float: left;
+	text-indent: -6%;
+	line-height: 20px;
+	/*background-color: rgba(164,10,37,.07);*/
+	background-color: white;
+	border-bottom-right-radius: 1%;
+	border-bottom-left-radius: 1%;
+	padding-bottom: 20px;
+}
+
+.main-body .side-bar .sidebar-body .point{
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: rgba(0,0,0,.70);
+	border-bottom: 1px solid rgba(164,10,37,.1);
+	font-size: 100%;
+	font-weight: bold;
+	font-family: Helvetica, Arial;
+}
+
+.main-body .side-bar .sidebar-body #last-point{
+	border: none;
+}
+
+/* end of css for sidebar */
+
+
+
+
+
+
+/* start of css for context */
+.main-body .context-holder{
+	width: 72%;
+	float: left;
+}
+
+
+.main-body .context-holder .context{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid rgba(164,10,37,.5);*/
+	box-shadow: 2px 2px 20px grey;
+}
+
+.main-body .context-holder .context .header{
+	height: 40px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #A40A25;
+	border-bottom: 4px solid #E01739;
+	text-align: center;
+	color: white;
+	font-family: Helvetica, Arial;
+	font-size: 125%;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.main-body .context-holder .context .context-body{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.main-body .context-holder .context .context-body h2{
 	color: #A40A25;
 	font-weight: bold;
 	cursor: pointer;
-	text-shadow: 1px 1px 2px grey;
 	transition: all .2s ease;
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
@@ -26,8 +112,8 @@
 	-ms-transition: all .2s ease;
 }
 
-.main-body .context h2:hover{
-	color: #E01739;
+.main-body .context-holder .context .context-body h2:hover{
+	text-shadow: 1px 1px 25px yellow;
 	transition: all .2s ease;
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
@@ -35,25 +121,110 @@
 	-ms-transition: all .2s ease;
 }
 
-.main-body .context h2,.main-body .context ul,.main-body .context p{
+.main-body .context-holder .context .context-body h2,
+.main-body .context-holder .context .context-body ul,
+.main-body .context-holder .context .context-body p
+{
 	margin-top: 0;
 	margin-bottom: 4%;
 }
 
+.main-body .context-holder .context .context-body p
+{
+	text-align: justify;
+    text-justify: inter-word;
+}
 
-.main-body .context ul,.main-body .context p{
+.main-body .context-holder .context .context-body .image{
+	width: 30%;
+	height: 270px;
+	float: right;
+	margin-left: 5%;
+}
+
+.main-body .context-holder .context .context-body .image img{
+	width: 100%;
+	height: 85%;
+	float: left;
+}
+
+.main-body .context-holder .context .context-body .image .caption{
+	width: 100%;
+	height: 10%;
+	float: left;
+	margin-top: 5%;
+	text-align: center;
+	color: grey;
+	font-family: Helvetica, Arial;
+	font-size: 80%;
+	font-style: italic;
+}
+
+.main-body .context-holder .context .context-body ul,
+.main-body .context-holder .context .context-body p{
 	font-size: 90%;
 	line-height: 20px;
 }
 
-.main-body .side-bar{
-	width: 16%;
-	float: left;
-	padding-right: 7%;
-	text-align: center;
-}
+
+/* end of css for context */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .main-body .side-bar .image{
 	width: 100%;
 	height: 250px;
@@ -84,3 +255,4 @@
 	width: 100%;
 	height: 100%;
 }
+*/

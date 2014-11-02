@@ -1,0 +1,46 @@
+/***************** css for navigation part *********************/
+
+nav {
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #A40A25;
+	border-bottom: 4px solid #E01739;
+}
+
+nav a{
+	text-decoration: none;
+	float: left;
+	padding-top: 13px;
+	height: 30px;
+	padding-left: 28px;
+	padding-right: 28px;
+	color: white;
+	border-left: 1px solid #E01739;	
+	background-color: #A40A25;
+	font-size: 75%;
+	font-family: helvetica, Arial;
+	font-weight: bold;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+nav #last{
+	border-right: 0px solid #E01739;
+}
+
+nav a:hover{
+	color: #A40A25;
+	background-color: white;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+
+
+/******************* end of css for navigation ***************/
