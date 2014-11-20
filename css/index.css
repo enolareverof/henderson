@@ -9,12 +9,27 @@
 body{
 	background-color: #CCCCCC;
 	margin: 0 auto;
+	font-family: helvetica, arial;
 }
 
 .container{
-	width: 1170px;
+	width: 1265px;
 	position: relative;
 	margin: 0 auto;
+}
+
+
+.welcome-message-container{
+	float: left;
+	width: 1115px;
+	height: auto;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	background-color: white;
+	font-size: 17px;
+	text-align: justify;
 }
 
 

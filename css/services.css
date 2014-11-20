@@ -1,0 +1,204 @@
+.main-body{
+	float: left;
+	width: 100%;
+	background-color: white;
+	font-family: helvetica, arial;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.main-body .main-body-container{
+	width: 92%;
+	margin: 0 auto;
+}
+
+
+.main-body .main-body-container .left-body,
+.main-body .main-body-container .right-body
+{
+	float: left;
+	width: 50%;
+}
+
+
+
+
+/******************* css for title **************************/
+.main-body .main-body-container .left-body .title,
+.main-body .main-body-container .right-body .title
+{
+	float: left;
+	width: 100%;
+}
+
+.main-body .main-body-container .left-body .title{
+	width: 86%;
+	margin-right: 14%;
+}
+
+.main-body .main-body-container .right-body .title{
+	width: 86%;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.main-body .main-body-container .left-body .title .arrow,
+.main-body .main-body-container .right-body .title .arrow
+{
+	float: left;
+	width: 17%;
+	height: 55px;
+	background-color: #541115;
+	
+	font-size: 45px;
+	color: white;
+	text-align: center;
+}
+.main-body .main-body-container .left-body .title .text,
+.main-body .main-body-container .right-body .title .text
+{
+	float: left;
+	width: 83%;
+	height: 45px;
+	background-color: #FBF9FA;
+	color: #541115;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+/****************** end of css for title ********************/
+
+
+
+
+
+
+
+
+/*********** css for block-without-border ***********************/
+.main-body .main-body-container .left-body .block-without-border{
+	float: left;
+	width: 86%;
+	margin-right: 14%;
+}
+
+.main-body .main-body-container .right-body .block-without-border
+{
+	float: left;
+	width: 86%;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.block-without-border ul{
+	line-height: 28px;
+	font-size: 20px;
+	font-family: Helvetica, Arial;
+	margin-bottom: 107px;
+}
+/******** end of css for block-without-border ****/
+
+
+
+
+
+
+
+
+
+/******** css for image ***************/
+.main-body .main-body-container .left-body .image,
+.main-body .main-body-container .right-body .image
+{
+	float: left;
+	width: 100%;
+	height: 265px;
+	background-color: #541115;
+
+	margin-bottom: 55px;
+}
+/**** end of css for image *****/
+
+
+/**** css for block-with-border *******/
+.main-body .main-body-container .left-body .block-with-border
+{
+	float: right;
+	width: 72%;
+	height: 350px;
+	border: 10px solid #D2BDBD;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+}
+
+.main-body .main-body-container .right-body .block-with-border
+{
+	float: left;
+	width: 72%;
+	height: 350px;
+	border: 10px solid #D2BDBD;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 65px;
+}
+
+
+.main-body .main-body-container .left-body .block-with-border .title
+{
+	float: left;
+	width: 100%;
+	height: 60px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.main-body .main-body-container .right-body .block-with-border .title
+{
+	float: left;
+	width: 100%;
+	height: 60px;
+
+	padding-top: 15px;
+	padding-left: 145px;
+
+}
+
+.main-body .main-body-container .left-body .block-with-border .description{
+	float: left;
+	width: 92.5%;
+	height: 270px;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+.main-body .main-body-container .right-body .block-with-border .description{
+	float: left;
+	width: 92.5%;
+	height: 270px;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+/** end of css for block-with-border **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+.about-us-container{
+	float: left;
+	width: 1115px;
+	height: auto;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 55px;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+.content-top-left{
+	float: left;
+	width: 785px;
+	height: auto;
+	padding-right: 30px;
+}
+
+p{
+	text-align: justify;
+}
+
+.content-top-right{
+	float: left;
+	width: 290px;
+	margin-top: 50px;
+	height: 300px;
+	border-radius: 50%;
+	border: 2px solid #E01739;
+	background-color: lightblue;
+	overflow: hidden;
+}
+
+.content-top-right img{
+	height: 100%;
+	width: 100%;
+}
+
+.content-bottom-left{
+	float: left;
+	width: 500px;
+	height: auto;
+}
+
+.content-bottom-right{
+	float: left;
+	width: 450px;
+	height: auto;
+	margin-left: 75px;
+}

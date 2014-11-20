@@ -88,7 +88,10 @@ function run(){
 							if ( $(window).width() > 1000) {
 								$('.window .slide-holder .slide .slidetext').animate({'padding-left': '7%'});
 								$('.window .slide-holder .slide .slidetext').animate({'padding-right':'33%'});
-								$('.window .mission').animate({'margin-left':'785'});
+								// $('.window .mission').animate({'margin-left':'785'});
+								$('.window .mission').css({
+									'transform':'translate3d(850px,0px,0px)'
+								});
 								mCondition=!mCondition;
 							}
 						}
@@ -96,7 +99,10 @@ function run(){
 							if ( $(window).width() > 1000) {
 								$('.window .slide-holder .slide .slidetext').animate({'padding-left':'33%'});
 								$('.window .slide-holder .slide .slidetext').animate({'padding-right':'7%'});
-								$('.window .mission').animate({'margin-left':'0'});
+								// $('.window .mission').animate({'margin-left':'0'});
+								$('.window .mission').css({
+									'transform':'translate3d(0px,0px,0px)'
+								});
 								mCondition=!mCondition;
 							}
 						}

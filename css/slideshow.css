@@ -20,7 +20,7 @@
 }
 
 .window .slide-holder .slide{
-	width: 33.33333333333333333333333333333333333333333333333333%;
+	width: 1265px;
 	height: 100%;
 	float: left;
 	position: relative;
@@ -51,6 +51,11 @@
 	margin-top: 2%;
 	margin-bottom: -1%;
 }
+
+/*.window .slide-holder .slide .slidetext p{
+	font-size: 17px;
+	line-height: 22px;
+}*/
 
 .window .slide-holder .slide .slidetext a{
 	padding: 1.2%; 
