@@ -50,7 +50,7 @@ header .flag{
 	height: 33px;
 	width: 55px;
 	float: left;
-	background-color: orange;
+	/*background-color: orange;*/
 }
 header .flag img{
 	width: 100%;
