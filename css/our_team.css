@@ -1,0 +1,96 @@
+.main-body{
+	width: 1115px;
+	height: auto;
+	float: left;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	background-color: white;
+}
+
+.body-top{
+	height: 205px;
+	width: 1115px;
+	background-color: #FFCB08;
+}
+
+.body-top img{
+	float: left;
+	width: 15%;
+	height: 205px;
+}
+
+.body-top .title{
+	width: 28%;
+	height: 190px;
+	margin-left: 3%;
+	margin-right: 1%;
+	float: left;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.body-top .about{
+	float: left;
+	width: 46%;
+	height: 190px;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.body-top .about p{
+	font-size: 14px;
+	text-align: justify;
+}
+
+
+.body-slider{
+	width: 100%;
+	margin-top: 60px;
+	height: 235px;
+	position: relative;
+	overflow: hidden;
+	background-color: #E1DFDF;
+}
+
+.slide{
+	position: absolute;
+	width: 2230px;
+	height: 100%;
+	left: -550px;
+	transition: all 0.5s ease;
+}
+
+.left,
+.right {
+	position: absolute;
+	top: 42%;
+	color: #EDECEC;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.right{
+	right: 0;
+}
+
+.left:hover,
+.right:hover{
+	transform: scale(1.4);
+}
+
+.block{
+	float: left;
+	height: 100%;
+	width: 185px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.block img{
+	background-color: red;
+	width: 65%;
+	height: 62%;
+	margin-top: 8%;
+}

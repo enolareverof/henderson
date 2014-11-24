@@ -1,0 +1,111 @@
+.main-body{
+	width: 1115px;
+	float: left;
+	background-color: white;
+	font-family: helvetica, arial;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 55px;
+	padding-bottom: 90px;
+	position: relative;
+}
+
+.term{
+	position: relative;
+	width: 205px;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #FFCB08;
+	font-size: 14px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.term:hover{
+	background-color: #A40A25;
+	color: white;
+	transition: all 0.2s ease;
+}
+
+.conditions{
+	position: absolute;
+	height: 70px;
+	width: 825px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #FFCB08;
+	left: 345px;
+	top: 55px;
+	font-size: 14px;
+	display: none;
+}
+
+.condition-elements{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.condition-elements .arrow{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: -25px;
+	top: 0px;
+	background-color: #FFCB09;
+	transform: rotateZ(45deg);
+}
+.condition-elements .text{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	text-align: justify;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+#condition_1{
+	display: block;
+}
+
+#condition_2{
+	top: 105px;
+	/*display: block;*/
+}
+
+#condition_3{
+	top: 157px;
+	/*display: block;*/
+}
+
+#condition_4{
+	top: 210px;
+	/*display: block;*/
+}
+
+#condition_5{
+	top: 260px;
+	/*display: block;*/
+}
+#condition_6{
+	top: 310px;
+	/*display: block;*/
+}
+#condition_7{
+	top: 362px;
+	/*display: block;*/
+}
+#condition_8{
+	top: 445px;
+	/*display: block;*/
+}
+#condition_9{
+	top: 497px;
+	/*display: block;*/
+}

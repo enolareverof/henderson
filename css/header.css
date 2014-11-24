@@ -3,15 +3,17 @@ header{
 	width: 100%;
 	height: 100px;
 	float: left;
+	/*background-color: #E1DFDF;*/
 	background-color: white;
 }
 
 header .banner{
-	width: 580px;
+	width: 579px;
 	float: left;
 	height: 100%;
 	background-color: #FFFFFF;
 	position: relative;
+	border-right: 1px solid black;
 }
 
 header .banner img{
@@ -25,20 +27,40 @@ header .banner img{
 }
 
 header .contact{
-	width: 250px;
-	height: 100%;
+	width: 249px;
+	border-right: 1px solid black;
+	height: 70px;
 	padding-left: 25px;
-	padding-top: 25px;
+	padding-top: 30px;
 	float: left;
 	font-size: 80%;
 	font-weight: bold;
 	font-family: Helvetica,Arial;
 	overflow: hidden;
-	line-height: 16px;
+	line-height: 17px;
 	font-family: helvetica, arial;
 	color: #868686;
-	background-color: apink;
+	/*background-color: brown;*/
 	text-align: left;
 }
 
+header .flag{
+	margin-top: 37px;
+	margin-left: 15px;
+	height: 33px;
+	width: 55px;
+	float: left;
+	background-color: orange;
+}
+header .flag img{
+	width: 100%;
+	height: 100%;
+}
+
+header .bangladesh{
+	float: left;
+	margin-top: 45px;
+	margin-left: 15px;
+	font-size: 12px;
+}
 /******************end of css for header***************************/
