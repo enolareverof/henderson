@@ -5,6 +5,7 @@ header{
 	float: left;
 	/*background-color: #E1DFDF;*/
 	background-color: white;
+	overflow: hidden;
 }
 
 header .banner{
@@ -13,22 +14,47 @@ header .banner{
 	height: 100%;
 	background-color: #FFFFFF;
 	position: relative;
-	border-right: 1px solid black;
+	border-right: 1px solid #868686;
 }
 
 header .banner img{
-	width: 440px;
-	height: 90px;
-	top: 5px;
-	bottom: 5px;
+	width: 105px;
+	height: 100px;
 	position: absolute;
-	left: 70px;
-	right: 70px;
+	left: 60px;
 }
+header .banner .title{
+	width: 405px;
+	height: 100px;
+	position: absolute;
+	right: 0px;	
+	/*background-color: lightblue;*/
+}
+
+header .banner .title .main-title{
+	margin-top: 25px;
+	color: #A40A25;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+header .banner .title .sub-title{
+	margin-top: 3px;
+	font-size: 15px;
+}
+
+header .banner .title .sub-title a{
+	text-decoration: none;
+	color: black;
+}
+header .banner .title .sub-title a:hover{
+	color: #A40A25;
+}
+
 
 header .contact{
 	width: 249px;
-	border-right: 1px solid black;
+	border-right: 1px solid #868686;
 	height: 70px;
 	padding-left: 25px;
 	padding-top: 30px;

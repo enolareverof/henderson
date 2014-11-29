@@ -24,11 +24,11 @@
 }
 
 .main-body .thubmnail:hover{
-	transform: scale(1.6);
-	-webkit-transform: scale(1.6);
-	-ms-transform: scale(1.6);
-	-o-transform: scale(1.6);
-	-moz-transform: scale(1.6);
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-moz-transform: scale(1.3);
 }
 
 .main-body .thubmnail img{
